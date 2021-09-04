@@ -1,11 +1,12 @@
-import Layout from "../components/Layout";
+/* eslint-disable import/no-unresolved */
+import Layout from '../components/Layout';
 
 export default function Blog() {
-    return (
-        <Layout pageTitle="Blog Page">
-            <div>
-                <p className="title">Blog Page</p>
-            </div>
-        </Layout>
-    );
+  return (
+    <Layout pageTitle="Blog Page">
+      <div>
+        <p className="title">Blog Page</p>
+      </div>
+    </Layout>
+  );
 }

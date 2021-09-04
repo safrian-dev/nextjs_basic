@@ -1,9 +1,9 @@
-import styles from './Footer.module.css'
+import styles from './Footer.module.css';
 
 export default function Footer() {
-    return (
-        <div>
-            <p className={styles.title}>Made with love @heart</p>
-        </div>
-    )
+  return (
+    <div>
+      <p className={styles.title}>Made with love @heart</p>
+    </div>
+  );
 }
