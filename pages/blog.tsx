@@ -3,5 +3,5 @@ export default function Blog() {
         <div>
             <p>Blog Page</p>
         </div>
-    )
+    );
 }
