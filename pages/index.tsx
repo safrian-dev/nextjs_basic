@@ -1,6 +1,7 @@
 /* eslint-disable import/no-unresolved */
 /* eslint-disable max-len */
 import Image from 'next/image';
+// eslint-disable-next-line import/extensions
 import Layout from '../components/Layout';
 import styles from '../styles/Home.module.css';
 

@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 /* eslint-disable import/no-unresolved */
 import { ReactNode } from 'react';
 import Head from 'next/head';

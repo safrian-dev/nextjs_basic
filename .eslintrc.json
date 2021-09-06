@@ -1,9 +1,15 @@
 {
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
     "env": {
         "browser": true,
         "es2021": true
     },
     "extends": [
+        "next",
         "plugin:react/recommended",
         "airbnb"
     ],
@@ -20,10 +26,12 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "react/no-unescaped-entities": "off",
+        "@next/next/no-page-custom-font": "off",
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+        "react/prop-types": "off",
         "react/react-in-jsx-scope": "off",
-        "import/extensions": ["error", {
-          "tsx": "never"
-        }]
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn" // <--- THIS IS THE NEW RULE
     }
 }

@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+// eslint-disable-next-line import/no-unresolved
 import { useEffect } from 'react';
 
 export default function Custom404() {
@@ -8,7 +9,7 @@ export default function Custom404() {
     setTimeout(() => {
       router.push('/');
     }, 2000);
-  }, []);
+  }, [router]);
   // set waktu untuk redirect
   // [] digunakan untuk sekali pemanggilan saja
 
